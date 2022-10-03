@@ -1,0 +1,47 @@
+{{/* Function to get the appropriate icon depending on chosen icon pack. */}}
+{{/* Assign icon as fontawesome icon by default */}}
+{{- $extra_class := .extra_class -}}
+{{- $icon_css := .context.icon_css -}}
+{{- $pack := or .context.icon_pack "fas" -}}
+{{- $pack_prefix := $pack -}}
+{{- if in (slice "fab" "fas" "far" "fal") $pack -}}
+  {{- $pack_prefix = "fa" -}}
+{{- end -}}
+{{- with .context.icon -}}
+  {{/* If icon is an emoji */}}
+  {{- if eq $pack "emoji" -}}
+    {{- . | emojify -}}
+  {{- else if eq $pack "custom" -}}
+    {{/* If icon is a custom svg */}}
+    {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
+    {{- if $svg_icon -}}
+      <img
+        src="{{ $svg_icon.RelPermalink }}"
+        alt="{{ . }}"
+        class="svg-icon svg-baseline"
+        {{ if $icon_css }}style="{{- $icon_css | safeCSS -}}"{{- end -}}
+        loading="lazy"
+      />
+    {{- end -}}
+  {{- else if eq $pack "image" -}}
+    {{/* If the request is to have an image */}}
+    {{/* Otherwise fall back the image file specified in front matter */}}
+    {{ $filename := . }}
+    {{/* n `assets/media/` folder */}}
+    {{ $image := resources.GetMatch (path.Join "media" $filename) }}
+    {{ $image := $image.Resize "550x webp" }}
+    <img
+      src="{{ $image.RelPermalink }}"
+      height="{{ $image.Height }}"
+      width="{{ $image.Width }}"
+      alt="{{ . }}"
+      class="img-responsive"
+      loading="lazy"
+    />
+  {{- else -}}
+    <i
+      class="{{ $pack }} {{ $pack_prefix }}-{{ . }} {{ $extra_class -}} {{ $icon_css }}"
+      aria-hidden="true"
+    ></i>
+  {{- end -}}
+{{- end -}}

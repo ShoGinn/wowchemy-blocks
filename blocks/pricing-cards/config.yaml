@@ -1,0 +1,6 @@
+module:
+  mounts:
+    - source: layouts
+      target: layouts
+    - source: assets
+      target: assets

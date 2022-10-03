@@ -1,0 +1,18 @@
+# Navigation Links
+#   To link a homepage block, specify the URL as a hash `#` followed by the filename of the
+#     desired block in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Pricing Cards
+    url: "#pricing-cards"
+    weight: 20
+  - name: Behold for Instagram
+    url: "#instagram-behold"
+    weight: 30
+  - name: Countdown Timer
+    url: "#countdown-timer"
+    weight: 40

@@ -1,0 +1,40 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $bg := $page.Params.design.background }}
+
+{{ with $page.Title }}
+  <h1 class="mb-0">{{ . | markdownify }}</h1>
+{{ end }}
+
+{{ $behold_id := $page.Params.behold.id }}
+{{ $username := $page.Params.instagram.username }}
+
+{{ if $behold_id }}
+  <div class="py-5" data-behold-id="{{ $behold_id }}"></div>
+  <script src="https://w.behold.so/block.js" type="module"></script>
+{{ end }}
+
+{{ if $username }}
+  {{ $link := $page.Params.cta.url }}
+  {{ $target := "target=\"_blank\" rel=\"noopener\"" }}
+  <div class="row">
+    <div class="col text-center">
+      <a
+        href="https://www.instagram.com/{{ $username | safeURL }}"
+        {{ $target | safeHTMLAttr }}
+        class="btn {{ if $bg.text_color_light }}
+          btn-light
+        {{ else }}
+          btn-primary
+        {{ end }}btn-lg p-3"
+      >
+        <i class="fab fa-instagram pr-1 fa-lg" aria-hidden="true"></i>
+        @{{ $username | markdownify | emojify | safeHTML }}</a
+      >
+    </div>
+  </div>
+{{ end }}
+
+{{ with $page.Content }}
+  <div class="py-5">{{ . }}</div>
+{{ end }}
