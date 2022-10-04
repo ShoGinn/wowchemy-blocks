@@ -49,7 +49,7 @@ pricing_cards:
 
 ```yaml
 ---
-block: 'github.shoginn.pricing-cards'
+widget: 'github.shoginn.pricing-cards'
 
 # This file represents a page section.
 headless: true

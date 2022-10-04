@@ -1,6 +1,6 @@
 ---
 headless: true
-block: blank
+widget: blank
 weight: 30
 title: My Instagram Behold Plugin
 design:

@@ -1,5 +1,5 @@
 ---
-block: github.shoginn.pricing-cards
+widget: github.shoginn.pricing-cards
 headless: true
 title: This helps show what an image card looks like
 subtitle: And how its sized

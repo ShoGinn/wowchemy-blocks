@@ -1,5 +1,5 @@
 ---
-block: github.shoginn.pricing-cards
+widget: github.shoginn.pricing-cards
 headless: true
 title: title
 subtitle: sub

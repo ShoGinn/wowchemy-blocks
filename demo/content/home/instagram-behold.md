@@ -1,9 +1,10 @@
 ---
-block: github.shoginn.instagram-behold
+widget: github.shoginn.instagram-behold
 headless: true
+design:
+    columns: '1'
 weight: 35
 title: Follow Us On Instagram
-
 instagram:
   username: castles
 behold:

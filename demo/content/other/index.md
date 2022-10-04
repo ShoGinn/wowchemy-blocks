@@ -1,6 +1,6 @@
 ---
 # Homepage
-type: block_page
+type: widget_page
 
 # Homepage is headless, other block pages are not.
 ---

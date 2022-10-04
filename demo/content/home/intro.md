@@ -1,6 +1,6 @@
 ---
 headless: true
-block: blank
+widget: blank
 weight: 1
 title: ShoGinn Wowchemy Block Demo
 design:

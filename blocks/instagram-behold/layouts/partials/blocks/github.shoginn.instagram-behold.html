@@ -1,13 +1,13 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-{{ $bg := $page.Params.design.background }}
+{{ $bg := $block.Params.design.background }}
 
-{{ with $page.Title }}
+{{ with $block.Title }}
   <h1 class="mb-0">{{ . | markdownify }}</h1>
 {{ end }}
 
-{{ $behold_id := $page.Params.behold.id }}
-{{ $username := $page.Params.instagram.username }}
+{{ $behold_id := $block.Params.behold.id }}
+{{ $username := $block.Params.instagram.username }}
 
 {{ if $behold_id }}
   <div class="py-5" data-behold-id="{{ $behold_id }}"></div>
@@ -15,7 +15,7 @@
 {{ end }}
 
 {{ if $username }}
-  {{ $link := $page.Params.cta.url }}
+  {{ $link := $block.Params.cta.url }}
   {{ $target := "target=\"_blank\" rel=\"noopener\"" }}
   <div class="row">
     <div class="col text-center">
@@ -35,6 +35,6 @@
   </div>
 {{ end }}
 
-{{ with $page.Content }}
+{{ with $block.Content }}
   <div class="py-5">{{ . }}</div>
 {{ end }}

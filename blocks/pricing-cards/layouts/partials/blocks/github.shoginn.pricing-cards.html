@@ -1,28 +1,28 @@
-{{ $page := .root }}
-{{ $page := .page }}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
 
 <div class="row pricing">
-  {{ with $page.Title }}
+  {{ with $block.Title }}
     <div class="w-100 section-heading text-center">
       <h1>{{ . | markdownify | emojify }}</h1>
-      {{ if $page.Params.subtitle }}
+      {{ if $block.Params.subtitle }}
         <p>
-          {{ $page.Params.subtitle | markdownify | emojify }}
+          {{ $block.Params.subtitle | markdownify | emojify }}
         </p>
         <br />
       {{ end }}
     </div>
   {{ end }}
 
-  {{ with $page.Content }}
+  {{ with $block.Content }}
     <div class="w-100 pb-5">
       {{ . | markdownify | emojify }}
     </div>
   {{ end }}
 
-  {{ range $page.Params.pricing_cards }}
-    {{ if isset $page.Params "max_card_columns" }}
-      {{ $max_cards := div 12 $page.Params.max_card_columns }}
+  {{ range $block.Params.pricing_cards }}
+    {{ if isset $block.Params "max_card_columns" }}
+      {{ $max_cards := div 12 $block.Params.max_card_columns }}
       <div class="col-md-{{ $max_cards }} d-flex">
     {{ else }}
       <div class="col-md d-flex">
@@ -105,12 +105,19 @@
   {{ end }}
 </div>
 
-{{/* Add the custom CSS */}}
+{{/*
+  Add the custom CSS  
+  This will go away once the code gets updated!
+*/}}
+
+
+{{/*  TODO: Update this when the code changes  */}}
+
 {{ $css_options := dict "targetPath" "css/pricing_cards.css" }}
 {{- if hugo.IsProduction -}}
   {{- $css_options = merge $css_options (dict "outputStyle" "compressed") -}}
 {{- end -}}
-{{ $sass_template := resources.Get "scss/pricing_cards.scss" }}
+{{ $sass_template := resources.Get "scss/blocks/pricing_cards.scss" }}
 {{ $style := $sass_template | resources.ExecuteAsTemplate "pricing_parsed.scss" . | toCSS $css_options }}
 {{- if hugo.IsProduction -}}
   {{- $style = $style | minify | fingerprint "md5" -}}

@@ -1,5 +1,5 @@
 ---
-block: github.shoginn.pricing-cards
+widget: github.shoginn.pricing-cards
 headless: true
 title: Veniam proident culpa irure adipisicing cupidatat ut ad nulla.
 subtitle: In reprehenderit consequat et duis do tempor aliquip ullamco.

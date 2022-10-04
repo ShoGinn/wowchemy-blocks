@@ -1,6 +1,8 @@
 ---
-block: github.shoginn.countdown-timer
+widget: github.shoginn.countdown-timer
 headless: true
+design:
+    columns: '1'
 weight: 45
 title: Countdown Timers
 

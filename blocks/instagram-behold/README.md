@@ -18,7 +18,7 @@
 
    ```markdown
    ---
-   block: 'github.shoginn.instagram-behold'
+   widget: 'github.shoginn.instagram-behold'
 
    # This file represents a page section.
    headless: true

@@ -1,6 +1,6 @@
 ---
 headless: true
-block: blank
+widget: blank
 weight: 40
 title: My Countdown Timer Plugin
 design:

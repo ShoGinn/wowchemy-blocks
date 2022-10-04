@@ -1,6 +1,6 @@
 ---
 headless: true
-block: blank
+widget: blank
 weight: 20
 title: My Pricing Cards Plugin
 design:

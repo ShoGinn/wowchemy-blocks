@@ -20,7 +20,7 @@ This is a very simple plugin that just displays a countdown!
 
    ```markdown
    ---
-   block: 'github.shoginn.countdown-timer'
+   widget: 'github.shoginn.countdown-timer'
 
    # This file represents a page section.
    headless: true

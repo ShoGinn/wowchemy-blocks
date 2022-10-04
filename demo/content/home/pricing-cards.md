@@ -1,6 +1,8 @@
 ---
-block: github.shoginn.pricing-cards
+widget: github.shoginn.pricing-cards
 headless: true
+design:
+    columns: '1'
 title: Veniam proident culpa irure adipisicing cupidatat ut ad nulla.
 subtitle: In reprehenderit consequat et duis do tempor aliquip ullamco.
 weight: 25
