@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "build": "rimraf ./demo/public ./demo/resources ./demo/_vendor",
+    "build": "rimraf public resources _vendor",
     "clean:hugo": "rimraf hugo{.log,_stats.json} resources public assets/jsconfig.json .hugo_build.lock",
-    "start:dev": "npm run build && hugo server --gc --source 'demo'",
-    "prod": "npm run build && hugo --gc --minify --source 'demo'",
-    "dev": "npm run build && hugo --gc --source 'demo'",
+    "start:dev": "npm run build && hugo server --gc",
+    "prod": "npm run build && hugo --gc --minify",
+    "dev": "npm run build && hugo --gc",
     "prepare": "husky install",
     "precommit": "lint-staged"
   },

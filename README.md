@@ -5,9 +5,9 @@
 
 ## I have developed these Blocks
 
-1. [Instagram Feed by Behold](blocks/instagram-behold/)
-2. [Pricing Cards](blocks/pricing-cards/)
-3. [Countdown Timer](blocks/countdown-timer/)
+1. [Instagram Feed by Behold](https://github.com/ShoGinn/wowchemy-block-instagram-behold)
+2. [Pricing Cards](https://github.com/ShoGinn/wowchemy-block-pricing-cards)
+3. [Countdown Timer](https://github.com/ShoGinn/wowchemy-block-countdown-timer)
 
 ## [Demo Site](https://shoginn-blocks-demos.netlify.app)
 
