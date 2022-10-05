@@ -9,7 +9,7 @@
     {{- range $block.Params.countdowns }}
       <div class="countdown col-md-6 border">
         <h2 class="text-center display-4">{{ .name }}</h2>
-        <div class="jumbotron counter" data-countdown="{{- .date -}}"></div>
+        <div data-countdown="{{- .date -}}"></div>
       </div>
     {{- end }}
   </div>
@@ -37,7 +37,7 @@
       finalDate = $(this).data("countdown");
     $this.countdown(finalDate, function (event) {
       $this.html(
-        event.strftime(`<div class="lead text-center">%D Days %H:%M:%S</div>`)
+        event.strftime(`<div class="text-center">%D Days %H:%M:%S</div>`)
       );
     });
   });
