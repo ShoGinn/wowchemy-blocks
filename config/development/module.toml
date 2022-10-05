@@ -1,0 +1,37 @@
+replacements = 'github.com/shoginn/wowchemy-block-countdown-timer -> ../../wowchemy-block-countdown-timer,github.com/shoginn/wowchemy-block-instagram-behold -> ../../wowchemy-block-instagram-behold,github.com/shoginn/wowchemy-block-pricing-cards -> ../../wowchemy-block-pricing-cards'
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms"
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify"
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5"
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/shoginn/wowchemy-block-pricing-cards"
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/shoginn/wowchemy-block-instagram-behold"
+
+[[imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = "github.com/shoginn/wowchemy-block-countdown-timer"
