@@ -104,22 +104,3 @@
     </div>
   {{ end }}
 </div>
-
-{{/*
-  Add the custom CSS  
-  This will go away once the code gets updated!
-*/}}
-
-
-{{/*  TODO: Update this when the code changes  */}}
-
-{{ $css_options := dict "targetPath" "css/pricing_cards.css" }}
-{{- if hugo.IsProduction -}}
-  {{- $css_options = merge $css_options (dict "outputStyle" "compressed") -}}
-{{- end -}}
-{{ $sass_template := resources.Get "scss/blocks/pricing_cards.scss" }}
-{{ $style := $sass_template | resources.ExecuteAsTemplate "pricing_parsed.scss" . | toCSS $css_options }}
-{{- if hugo.IsProduction -}}
-  {{- $style = $style | minify | fingerprint "md5" -}}
-{{- end -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
