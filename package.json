@@ -71,6 +71,11 @@
       "wowchemy"
     ]
   },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
