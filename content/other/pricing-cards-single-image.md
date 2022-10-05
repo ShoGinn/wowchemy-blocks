@@ -20,7 +20,7 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
   - name: Just a test image
     description: How can this look so good?
     price: 1000
@@ -36,7 +36,7 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
   - name: Just a test image
     description: How can this look so good?
     price: 1000
@@ -52,6 +52,6 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
 
 ---

@@ -20,7 +20,7 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
 
   - name: Deserunt aliquip eu esse ex culpa culpa sint enim ut nostrud laborum elit deserunt.
     description: Exercitation in est deserunt tempor labore aliqua.
@@ -38,7 +38,7 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
 
   - name: This card has a disabled hover effect, as well as the default horizontal rule!
     default_hr: true
@@ -60,6 +60,6 @@ pricing_cards:
       - icon_pack: fas
         icon: calendar-alt
         icon_label: Order Now
-        url: /order
+        url: /other
 
 ---
