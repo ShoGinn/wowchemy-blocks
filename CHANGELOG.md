@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/ShoGinn/wowchemy-blocks/compare/v1.0.0...v1.0.1) (2022-10-05)
+
+
+### Bug Fixes
+
+* add hugo stats for css ([fede270](https://github.com/ShoGinn/wowchemy-blocks/commit/fede2702b578abd6e4b2edaf3efd7c0d356d4f51))
+
 ## 1.0.0 (2022-10-05)
 
 
