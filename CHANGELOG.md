@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/ShoGinn/wowchemy-blocks/compare/v1.0.1...v1.0.2) (2022-10-30)
+
+
+### Bug Fixes
+
+* update versions ([f31e14e](https://github.com/ShoGinn/wowchemy-blocks/commit/f31e14e263423b91f5dd125fc132d6d7d82fa09f))
+
 ## [1.0.1](https://github.com/ShoGinn/wowchemy-blocks/compare/v1.0.0...v1.0.1) (2022-10-05)
 
 
