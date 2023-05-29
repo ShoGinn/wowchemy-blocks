@@ -1,5 +1,4 @@
-replacements = 'github.com/shoginn/wowchemy-block-countdown-timer -> ../../wowchemy-block-countdown-timer,github.com/shoginn/wowchemy-block-instagram-behold/v3 -> ../../wowchemy-block-instagram-behold,github.com/shoginn/wowchemy-block-pricing-cards -> ../../wowchemy-block-pricing-cards'
-
+# replacements = 'github.com/shoginn/wowchemy-block-countdown-timer -> ../../wowchemy-block-countdown-timer,github.com/shoginn/wowchemy-block-instagram-behold/v3 -> ../../wowchemy-block-instagram-behold,github.com/shoginn/wowchemy-block-pricing-cards -> ../../wowchemy-block-pricing-cards'
 [[imports]]
 disable = false
 ignoreConfig = false

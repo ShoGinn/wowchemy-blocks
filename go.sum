@@ -1,3 +1,9 @@
+github.com/shoginn/wowchemy-block-countdown-timer v1.0.0 h1:l1UPZdKfCpa/iVdvplAf7Ob8+QORuKrnCbLK+bPNkJ8=
+github.com/shoginn/wowchemy-block-countdown-timer v1.0.0/go.mod h1:BF9efsuQJaAX/svFK8gePZHdO3tS9dQDcKh512GQsec=
+github.com/shoginn/wowchemy-block-instagram-behold/v3 v3.0.1 h1:nn6kfqOcl04f87tZUFcrcfF/Gc3VXKARS+NDfirEc4M=
+github.com/shoginn/wowchemy-block-instagram-behold/v3 v3.0.1/go.mod h1:V81HFJKvZAkAX+aBZQHEnkhBv8UwU36CGGrWwK+h+KE=
+github.com/shoginn/wowchemy-block-pricing-cards v1.0.0 h1:QlNLMQMpGkNs2tetHLoz8DobUpVe2ymcJ8JUdjliXBQ=
+github.com/shoginn/wowchemy-block-pricing-cards v1.0.0/go.mod h1:7aAzZk9X5SXwGuZcW7zE80gK3P1mmYHdADqoz5tGr4w=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230520134102-1b9f1397c1f9 h1:i07qPSwQYycLv0w/SGMdEz8Nl4AGMgDJwen6Q82ShAk=
