@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ShoGinn/wowchemy-blocks/compare/v1.0.2...v1.0.3) (2024-02-27)
+
+
+### Bug Fixes
+
+* update new hugo blox ([48fd7a5](https://github.com/ShoGinn/wowchemy-blocks/commit/48fd7a540aa5b334e976985b5e03ebc638decb3f))
+
 ## [1.0.2](https://github.com/ShoGinn/wowchemy-blocks/compare/v1.0.1...v1.0.2) (2022-10-30)
 
 
