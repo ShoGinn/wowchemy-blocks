@@ -94,5 +94,5 @@
     "rimraf": "^5.0.5",
     "run-script-os": "^1.1.6"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
