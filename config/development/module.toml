@@ -3,19 +3,13 @@
 disable = false
 ignoreConfig = false
 ignoreImports = false
-path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms"
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
 
 [[imports]]
 disable = false
 ignoreConfig = false
 ignoreImports = false
-path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify"
-
-[[imports]]
-disable = false
-ignoreConfig = false
-ignoreImports = false
-path = "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5"
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
 
 [[imports]]
 disable = false
